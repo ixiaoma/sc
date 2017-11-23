@@ -1,0 +1,132 @@
+.cart_list{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    height: 120px;
+    padding-left: 10px;
+    border-top: 1px solid #d5d5d5;
+    align-items: center
+}
+.cart_list dd{
+    margin-left: 10px;
+    flex: 1;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.cart_list dd .sca_title {
+    line-height: 20px;
+    height: 40px;
+    font-size: 12px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cart_list dd .secoo_pri{
+    padding-left: 20px;
+    color: #737373;
+}
+.cart_list dd .choose_style{
+    color: #ababab;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between
+}
+.cart_list dt{
+    position: relative;
+    padding-left: 30px;
+}
+.payselectDIV.selected {
+    background-position: -48px 0px;
+}
+.payselectDIV {
+    position: absolute;
+    top: 30px;
+    left: 7px;
+    color: white;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    background: url(http://m.secoo.com/images/mark_01.png) no-repeat;
+    background-size: 70px;
+}
+.package{
+    padding: 10px;
+    font-size: 14px;
+    height: 90px;
+    line-height: 90px;
+    position: relative;
+    border-bottom: 1px solid #d5d5d5;
+    border-top: 0;
+}
+.package .payselectDIV.selected {
+    background-position: 0;
+    top: -10px
+}
+.sum_btm{
+    background: #eeeeee;
+}
+.sum_price{
+    background: #f8f8f8;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #474747;
+    font-size:14px;
+}
+.baoxian {
+    height: 45px;
+    width: 100%;
+    background: url(http://m.secoo.com/images/bao_03.png) no-repeat 10px 3px;
+    background-size: 30px;
+    box-sizing: border-box;
+    padding-left: 45px;
+    margin: 12px 0 0px 10px;
+}
+.baoxian span:first-child {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.baoxian span {
+    display: block;
+    font-size: 12px;
+    color: #ababab;
+    line-height: 20px;
+}
+.cart_footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    height: 32px;
+    line-height: 32px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #fff
+}
+.cart_footer .payselectDIV{
+    top: 10px
+}
+.sum_num{
+    padding-left: 30px
+}
+.total_btn{
+    width: 95px;
+    height: 26px;
+    line-height: 26px;
+    background-color: #f24413;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+.cartCon a{
+    color: #474747
+}
+#cart-page .content{
+    padding-bottom: 100px;
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.backBtn{
+    width: 45px;
+    overflow: hidden;
+    color: #474747;
+    z-index: 20;
+    font-size: 18px;
+}
+.header-btn img{
+    margin-top: 10px
+}
+.header{
+    padding: 0 10px;
+}
+.content{
+    overflow: auto
+}
+body{
+    background: #fff;
+}
+.sub-header{background:#ccc;position:fixed;top:45px;left:0;width:100%;height:35px;line-height:35px}.sub-header ul{overflow-x:auto;overflow-y:hidden;font-size:0;white-space:nowrap;width:100%}.sub-header li{display:inline-block;font-size:12px;padding:0 5px}
+.header{width:100%;line-height:44px;text-align:center}
+.header-btn{width: 45px}
+.footer,.header{text-align:center}*{margin:0;padding:0;box-sizing:border-box;-webkit-box-sizing:border-box}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:400}img{border:0;vertical-align:top}li{list-style:none}a{touch-callout:none;text-decoration:none;-webkit-tap-highlight-color:transparent}em,i{font-style:normal}textarea{resize:none}button::-moz-focus-inner,input::-moz-focus-inner,textarea::-moz-focus-inner{border:0;padding:0}body{font-size:12px}
+.header{background-color:#fff;position:fixed;top:0;left:0;height:44px;border-bottom:1px solid rgb(233, 231, 231)}.header ul{display:-webkit-box;display:-ms-flexbox;display:flex}
+.header .header-tit{-webkit-box-flex:1;-ms-flex:1;flex:1;margin: 0 auto;padding: 0 20px;font-size: 16px}
+.footer,.footer ul{height:50px}
+.header~.content{padding-top:44px}.footer~.content{padding-bottom:50px}
+.footer{background-color:#fff;bottom:0;border-top:1px solid #ccc;line-height:2}
+.footer li{float:left;width:20%}
+html,body{height: 100%;}
+*{box-sizing: border-box;}
+html,body,p,input,img,ul,li,dl,dt,dd,form,fieldset,legend,h1,h2,h3,h4,h5,h6,figure,figcaption{margin: 0;padding: 0;}
+img{display: block;border: 0;}
+ul,li,ol{list-style: none;}
+i{font-style: normal;}
+a,u{text-decoration: none;}
+html{font-size: 26.67vw;}
+
+#index-page{height: 55px;position: fixed;background: #fff;width: 100%;left: 0;top: 0;z-index: 10;}
+#index-page h1{float: left;width: 12%;margin: 5px 10px 0px 10px;}
+#index-page h1 img{width: 100%;}
+#index-page h2{font-size: 0.18rem;line-height: 0.3rem;font-weight: normal;}
+#index-page p{font-size: 0.12rem;color:#666;}
+#index-page div{font-size: 0.15rem;position: absolute;right: 0;top: 0;border: 1px solid #000;margin: 12px;padding: 5px;}

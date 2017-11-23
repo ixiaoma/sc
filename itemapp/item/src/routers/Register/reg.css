@@ -1,0 +1,49 @@
+#msg_tips{
+    color: #f00;
+    font-size: 13px;
+    min-height: 30px;
+    padding-top: 7px;
+}
+.register-info {
+    font-size: 12px;
+    color: #747474;
+    padding-top: 20px;
+}
+.register-info a {
+    font-size: 12px;
+    color: #7148bf;
+    text-decoration: none;
+}
+.reg-hidden{
+    display:none
+}
+.get_code{
+    display: flex;
+    justify-content: space-between
+}
+#getCode{
+    width: 30%;
+    display: inline-block;
+    font-size: 12px;
+    background-color:#7148bf 
+}
+#reg_btn{
+    background-color:#7148bf 
+}
+.content .add_border{
+    border-bottom: solid 1px #d5d5d5;
+}
+#login_getCode{
+    height: 0.3rem;
+    margin-top: 10px;
+    display: inline-block;
+}
+#register-page .header{
+    border-bottom: 0
+}
+#register-page .header .right_btn{
+    position: absolute;
+    left: 30px;
+    font-size: 16px;
+    bottom: 5px
+}

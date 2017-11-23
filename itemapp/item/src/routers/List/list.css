@@ -1,0 +1,106 @@
+.nav_tit{
+    width: 100%;
+    margin: 0 auto
+}
+.nav_tit li {
+    width: 48%;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    float: left;
+    text-align: center;
+    border: 1px solid #eaeaea}
+    .showActive{
+        background: #474747;
+        color: #fff!important;
+        border-color: #474747;
+    }
+.nav_tit li a{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    font-size: 16px
+}
+.go_home{
+    width: 45px;
+    height: 45px;
+    display: block
+}
+.go_home img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 0 10px
+}
+.classify{
+    overflow: hidden;
+    padding-bottom: 18px;
+}
+.class_tit{
+    text-align: center;
+    font-size: 14px;
+    background: #eaeaea;
+    height: 32px;
+    line-height: 32px;
+    color: #474747;
+    margin-bottom: 18px;
+    width: 100vw;
+}
+.class_tit a{
+    color: #474747;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.classify ul li{
+    width: 25%;
+    float: left;
+    line-height: 40px;
+    color: #737373;
+    list-style: none;
+}
+.classify ul li a{
+    color: #737373;
+    font-size: 12px
+}
+.brand_tit{
+    background: #eeeeee;
+    font-size: 14px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    color: #474747;
+    width: 100%;
+}
+.classify ul{
+    padding-left: 16px;
+}
+.brands li{
+    display: flex;
+    justify-content: space-between;
+    color: #737373;
+    height: 40px;
+    line-height: 40px;
+    width: 94%;
+    list-style: none;
+    border-bottom: 1px solid #d5d5d5;
+}
+.brand_view{
+    background: #474747;
+    position: fixed;
+    right: 0px;
+    top: 45px;
+    z-index: 1;
+    width: 5%;
+    text-align: center;
+}
+.brand_view a {
+    height: 16px;
+    line-height: 16px;
+    color: #fff;
+    clear: left;
+    float: left;
+    width: 100%;
+}
