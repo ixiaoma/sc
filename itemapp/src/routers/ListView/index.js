@@ -11,7 +11,6 @@ class SubHeader extends Component{
         <span>综合</span><span>品牌</span><span>筛选</span>
         </div>
     }
-
 }
 class Product extends Component{
     constructor(props) {
